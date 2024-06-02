@@ -1,4 +1,41 @@
 .htmltag{
 
-    border: red;
+    border:   solid;
+}
+
+.square{
+    height: 10px
+    ;
+width: 10px;
+background-color: red;}
+
+
+
+table , th, td { border: 1px solid;
+border-collapse: collapse;}
+
+th {
+    background-color: red;
+}
+
+
+.top
+{
+    background-color: darkviolet;
+    padding: 50px;
+    color: red;
+}
+
+.top button{
+    color: yellowgreen;
+}
+
+.circle { height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rebeccapurple;
+}
+.circle_main{
+    display: flex;
+    gap: 50px;
 }
