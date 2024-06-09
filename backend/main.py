@@ -268,6 +268,40 @@ print(calculate_grade(30))
 
 
 
+class Person:
+    def __init__(self, age, name):
+        self.age = int(age)
+        self.name = str(name)
+
+    def greeting(self):
+        print("Hello" + self.name)
+    def sleep(self):
+        print(self.name + " is going to sleep.")
+
+class Animal:
+    def __init__(self, name, age, color):
+        self.name = str(name)
+        self.age = int(age)
+        self.color = str(color)
+
+    def eat(self):
+        print(self.name + " is going to eat.")
+    def run(self):
+        print(self.name + " is running.")
+
+
+
+Ilhama = Person(28, "Ilhama")
+
+test_ilhama1 = Ilhama.greeting()
+test_ilhama2 = Ilhama.sleep()
+
+
+Toby = Animal("Toby", 2, "blue")
+
+test_toby1 = Toby.eat()
+test_toby2 = Toby.run()
+
 
 
 
