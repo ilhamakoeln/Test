@@ -263,11 +263,6 @@ print(calculate_grade(30))
 
 
 
-
-
-
-
-
 class Person:
     def __init__(self, age, name):
         self.age = int(age)
@@ -301,6 +296,47 @@ Toby = Animal("Toby", 2, "blue")
 
 test_toby1 = Toby.eat()
 test_toby2 = Toby.run()
+
+
+
+
+def print_numbers():
+        print(1)
+        print(2)
+        print(3)
+
+print_numbers()
+
+
+
+
+
+
+
+## Quiz
+
+# 1. A
+# 2. A
+# 3. B
+# 4. A
+# 5. C
+# 6. C
+# 7. C
+# 8. A
+# 9. A
+# 10. A
+# 11. A
+# 12. A
+# 13. A
+# 14. A
+# 15. A
+# 16. A
+# 17. A
+# 18. B
+# 19. C
+# 20. C
+# 21. B
+# 22. A
 
 
 
